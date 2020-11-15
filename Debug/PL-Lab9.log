@@ -1,0 +1,6 @@
+﻿  main.c
+lex.yy.c(1406,6): warning C4013: exit: нет определения; предполагается "extern" с возвратом типа "int"
+lex.yy.c(1469,22): warning C4013: malloc: нет определения; предполагается "extern" с возвратом типа "int"
+lex.yy.c(1487,23): warning C4013: realloc: нет определения; предполагается "extern" с возвратом типа "int"
+lex.yy.c(1497,6): warning C4013: free: нет определения; предполагается "extern" с возвратом типа "int"
+  PL-Lab9.vcxproj -> D:\User\OneDrive\Documents\PL\PL-Lab9\Debug\PL-Lab9.exe

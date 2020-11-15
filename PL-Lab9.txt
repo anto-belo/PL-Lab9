@@ -1,0 +1,18 @@
+%option noyywrap
+%{
+int reg_count = 0;
+%}
+
+%%
+
+(0x|$)[0-9A-F]+[ ]	{
+	++reg_count;
+	printf("HEX ");
+}
+
+%%
+
+int main() {
+	yylex();
+	printf("Hex-nums: %d\n", reg_count);
+}
