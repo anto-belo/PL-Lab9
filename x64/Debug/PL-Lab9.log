@@ -1,0 +1,10 @@
+﻿  main.c
+lex.yy.c(859,1): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+lex.yy.c(1025,1): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+lex.yy.c(1406,6): warning C4013: exit: нет определения; предполагается "extern" с возвратом типа "int"
+lex.yy.c(1469,22): warning C4013: malloc: нет определения; предполагается "extern" с возвратом типа "int"
+lex.yy.c(1469,28): warning C4312: приведение типов: преобразование из "int" в "void *" большего размера
+lex.yy.c(1487,23): warning C4013: realloc: нет определения; предполагается "extern" с возвратом типа "int"
+lex.yy.c(1487,41): warning C4312: приведение типов: преобразование из "int" в "void *" большего размера
+lex.yy.c(1497,6): warning C4013: free: нет определения; предполагается "extern" с возвратом типа "int"
+  PL-Lab9.vcxproj -> D:\User\OneDrive\Documents\PL\PL-Lab9\x64\Debug\PL-Lab9.exe
